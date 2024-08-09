@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 200vh;
+  font-family: "Poppins", sans-serif;
+}
+/* <!-- navbar start --> */
+.navbar {
+  background-color: black;
+  color: white;
+  height: 60px;
+  position: sticky;
+  top: 0;
+}
+
+.logo-wrapper img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 50px;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  column-gap: 30px;
+}
+
+.menu-list-item {
+  cursor: pointer;
+}
+
+.menu-list-item:hover {
+  font-weight: bold;
+}
+
+.menu-list-item.active {
+  font-weight: bold;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.porfile-picture {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-text-container {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  line-height: 1px;
+}
+.toggle {
+  width: 40px;
+  background-color: white;
+  height: 20px;
+  position: relative;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.toggle-icon {
+  color: goldenrod;
+}
+
+.toggle-ball {
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  right: 1px;
+}
+
+/* <!-- navbar end --> */
+/* <!-- sidebar start --> */
+
+.sidebar {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  padding-top: 60px;
+  position: fixed;
+  top: 0;
+}
+.sidebar i {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* <!-- sidebar end --> */
