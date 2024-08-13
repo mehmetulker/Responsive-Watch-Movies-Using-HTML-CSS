@@ -7,8 +7,13 @@
 }
 
 body {
-  height: 200vh;
   font-family: "Poppins", sans-serif;
+  height: 200vh;
+}
+
+.container {
+  background-color: black;
+  color: white;
 }
 /* <!-- navbar start --> */
 .navbar {
@@ -114,5 +119,66 @@ body {
   font-size: 20px;
   cursor: pointer;
 }
+/*  sidebar end*/
 
-/* <!-- sidebar end --> */
+/* featured content start */
+
+.content-wrapper {
+  margin-left: 50px;
+}
+
+.featured-content {
+  background: url("img/spiderman.jpg");
+  padding: 50px;
+  height: calc(100vh - 160px);
+  background-size: 100% 100%;
+}
+
+.featured-title {
+  width: 400px;
+}
+
+.featured-desc {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 30px 0;
+}
+
+.featured-button {
+  display: flex;
+  column-gap: 20px;
+}
+
+.featured-button button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  display: flex;
+  column-gap: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.featured-button .info-button {
+  background-color: rgb(145, 142, 142, 0.5);
+  color: white;
+}
+/* featured content start*/
+
+/* filter start */
+
+.movie-list-filter {
+  margin: 20px 0 20px 50px;
+  padding: 20px;
+}
+
+.movie-list-filter select {
+  background-color: black;
+  color: white;
+  padding: 7px 0;
+  width: 125px;
+}
+
+/* filter end */
