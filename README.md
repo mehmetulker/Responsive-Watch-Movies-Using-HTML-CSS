@@ -1,4 +1,4 @@
-# Responsive Watch Movies Using HTML & CSS
+# Responsive Watch Movies Using HTML,JS & CSS
 
 ![Responsive-Watch-Movies-Using-HTML-CSS](./img/Responsive_Food_Website.gif)
 
