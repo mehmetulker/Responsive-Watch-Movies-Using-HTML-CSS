@@ -410,7 +410,7 @@ body {
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
     width: 100%;
     padding: 10px 10px;
     gap: 10px;
